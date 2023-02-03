@@ -1,4 +1,4 @@
-# whisper-small-kr-fine-tune
+# Whisper-small-kr-fine-tune
 Fine tune OpenAI whisper model on a korean dataset
 This model is a fine-tuned version of [openai/whisper-small](https://huggingface.co/openai/whisper-small) on the Bingsu korean dataset. It achieves the following results:
 
@@ -21,3 +21,5 @@ The following hyperparameters were used during training:
 - lr_scheduler_warmup_steps: 500
 - training_steps: 3000
 - mixed_precision_training: Native AMP
+
+The link for the model is also on huggingface at [deemboi/whisper-small-kr](https://huggingface.co/deemboi/whisper-small-kr)
